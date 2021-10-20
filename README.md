@@ -15,8 +15,9 @@ Le problème du sac à dos, noté également KP (en anglais, Knapsack problem) e
 
 ## Installation
   - **Installation des dépendances pour le Makefile** 
-	   - Installation de *snapd* pour pouvoir obtenir la dernière version de *cmake* `apt install snapd`
+	  - Installation de *snapd* pour pouvoir obtenir la dernière version de *cmake* `apt install snapd`
 	  - Installation de *cmake* `snap install cmake`
+	  - Si cela ne fonctionne pas `apt install cmake`
 	  
 - **Installation du projet**
   * Cloner le projet ``git clone https://github.com/hbourget/ProgDyn.git``
