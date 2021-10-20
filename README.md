@@ -1,4 +1,4 @@
-# ProgDyn
+# Programmation Dynamique
 
 **Sommaire** :
 
