@@ -12,7 +12,7 @@ typedef struct
 } Element;
 
 /**
- * @brief Tri des différents objets en fonction de leur rapport qualité/prix (valeur/poids)
+ * @brief Tri par sélection des différents objets en fonction de leur rapport qualité/prix (valeur/poids)
  *
  * @param elements Tableau d'elements (Element)
  * @param value Valeur a ajouter en haut de la pile
