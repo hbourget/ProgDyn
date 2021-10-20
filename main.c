@@ -3,6 +3,6 @@
 int main()
 {
     test_dicothomy();
-    test_glouton();
+    test_knapsack();
     printf("Les tests se sont bien deroules.");
 }

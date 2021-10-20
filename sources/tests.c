@@ -21,7 +21,7 @@ void test_dicothomy()
     assert(resultat == 3);
 }
 
-void test_glouton()
+void test_knapsack()
 {
     int taille = 3;
     int poidsMax = 10;

@@ -12,6 +12,6 @@ test_dicothomy();
 /**
  * @brief Tests unitaires pour le problème du sac à dos.
  */
-test_glouton();
+test_knapsack();
 
 #endif //PROGRAMMATIONDYNAMIQUE_TESTS_H
