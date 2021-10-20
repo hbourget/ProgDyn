@@ -28,16 +28,8 @@ Le problème du sac à dos, noté également KP (en anglais, Knapsack problem) e
 ## Documentation Doxygen
 Il est possible de générer la documentation technique de ce projet avec [Doxygen](https://www.doxygen.nl/index.html) en suivant le protocole suivant :
 
-* **Windows**
-  * Installation de Doxygen (Ne pas oublier d'ajouter Doxygen dans le PATH windows)
-    * [Sourceforge](https://sourceforge.net/projects/doxygen/files/rel-1.9.2/)
-  * Génération de la documentation depuis la racine de ProgDyn
-    * `mingw32-make documentation`
-   
-
-* **Linux**
   * Installation de Doxygen 
-    * ``apt-get install doxygen``
+    * ``apt install doxygen``
   * Génération de la documentation depuis la racine de ProgDyn
     * ``make documentation``
 
