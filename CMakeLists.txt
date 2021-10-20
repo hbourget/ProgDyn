@@ -3,4 +3,4 @@ project(ProgrammationDynamique C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ProgrammationDynamique main.c sources/dicothomy.c headers/dicothomy.h)
+add_executable(ProgrammationDynamique main.c sources/dicothomy.c headers/dicothomy.h sources/misc.c headers/misc.h sources/glouton.c headers/glouton.h)

@@ -1,14 +1,21 @@
-#include <stdio.h>
-#include "headers/misc.h"
-#include "headers/dicothomy.h"
-#include "headers/glouton.h"
+//
+// Created by h.bourget on 20/10/2021.
+//
+#include <malloc.h>
+#include "../headers/glouton.h"
 
-int main()
+int *getSortedTab(int taille)
 {
-    int taille = 5;
-    int valeur = 3;
-    int *tabDicothomy = getSortedTab(taille);
+    int *tab = (int*) malloc(sizeof(int)*taille);
+    for (int i = 0; i < taille; i++)
+    {
+        tab[i] = i;
+    }
+    return tab;
+}
 
+Objet *getSortedTabStruc(int taille)
+{
     Objet objets[5];
     Objet monItem1; monItem1.poids = 3; monItem1.valeur = 1;
     Objet monItem2; monItem2.poids = 5; monItem2.valeur = 4;
@@ -22,12 +29,5 @@ int main()
     objets[3] = monItem4;
     objets[4] = monItem5;
 
-
-    int resultat = find_by_dichotomy(tabDicothomy, taille, valeur);
-    printf("%d", resultat);
-
-    for (int i = 0; i < 5; ++i)
-    {
-
-    }
+    return objets;
 }
