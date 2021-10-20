@@ -22,7 +22,7 @@ Le problème du sac à dos, noté également KP (en anglais, Knapsack problem) e
 - **Installation du projet**
   * Cloner le projet ``git clone https://github.com/hbourget/ProgDyn.git``
   * Se placer dans le répertoire de ProgDyn `cd <repertoire>`
-  * Générer le Makefile `cmake <repertoire_complet>` (Exemple `cmake /home/hbourget/cProjetcs/ProgDyn`)
+  * Dans le repertoire de ProgDyn, générer le Makefile `cmake <repertoire>` (Exemple `cmake /home/hbourget/cProjetcs/ProgDyn`)
   * Générer le fichier exécutable dans le répertoire  ``make`` 
   * Lancer le programme `./ProgDyn`
 ## Documentation Doxygen
