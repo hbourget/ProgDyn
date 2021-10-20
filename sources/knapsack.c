@@ -3,7 +3,7 @@
 //
 #include "../headers/knapsack.h"
 
-void triObjets(Element elements[], int taille)
+void triElements(Element elements[], int taille)
 {
     int i,j;
     float tempPoids, tempsValeur;

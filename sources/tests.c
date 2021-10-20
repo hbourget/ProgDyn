@@ -36,7 +36,7 @@ void test_glouton()
     elements[1] = monElement2;
     elements[2] = monElement3;
 
-    triObjets(elements, taille);
+    triElements(elements, taille);
     res = remplissageSac(elements, taille, poidsMax);
     printf("\n%f", res);
 }

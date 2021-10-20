@@ -17,7 +17,7 @@ typedef struct
  * @param elements Tableau d'elements (Element)
  * @param value Valeur a ajouter en haut de la pile
  */
-void triObjets(Element elements[], int taille);
+void triElements(Element elements[], int taille);
 
 /**
  * @brief Remplissage du sac avec le tableau trié précedemment
