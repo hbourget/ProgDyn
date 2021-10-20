@@ -6,7 +6,7 @@
 void triElements(Element elements[], int taille)
 {
     int i,j;
-    float tempPoids, tempsValeur;
+    float tmpPoids, tmpValeur;
 
     for(i = 0; i < taille-1; i++)
     {
@@ -14,11 +14,11 @@ void triElements(Element elements[], int taille)
         {
             if (elements[i].valeur/elements[i].poids < elements[j].valeur/elements[j].poids)
             {
-                tempPoids = elements[i].poids;
-                tempsValeur = elements[i].valeur;
+                tmpPoids = elements[i].poids;
+                tmpValeur = elements[i].valeur;
                 elements[i] = elements[j];
-                elements[j].poids = tempPoids;
-                elements[j].valeur= tempsValeur;
+                elements[j].poids = tmpPoids;
+                elements[j].valeur= tmpValeur;
             }
         }
     }
