@@ -3,4 +3,4 @@ project(ProgDyn C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(ProgrammationDynamique main.c sources/dicothomy.c headers/dicothomy.h sources/knapsack.c headers/knapsack.h sources/tests.c headers/tests.h)
+add_executable(ProgDyn main.c sources/dicothomy.c headers/dicothomy.h sources/knapsack.c headers/knapsack.h sources/tests.c headers/tests.h)
