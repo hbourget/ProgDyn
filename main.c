@@ -1,4 +1,4 @@
-#include "../headers/tests.h"
+#include "headers/tests.h"
 #include <stdio.h>
 int main()
 {
