@@ -26,7 +26,7 @@ void triElements(Element elements[], int taille)
 
 float remplissageSac(Element elements[], int taille, int poidsMax)
 {
-    float valeurTotal;
+    float valeurTotal = 0;
     for (int i = 0; i < taille; ++i)
     {
         if(elements[i].poids <= poidsMax)
