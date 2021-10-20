@@ -2,7 +2,9 @@
 #include <stdio.h>
 int main()
 {
-    test_dicothomy();
+    test_dichotomy();
+    printf("Test dichotomy: OK");
     test_knapsack();
-    printf("Les tests se sont bien deroules.");
+    printf("Test sac a dos: OK.");
+    printf("Fin des tests.");
 }

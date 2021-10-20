@@ -6,7 +6,7 @@
 #include <malloc.h>
 #include <assert.h>
 
-void test_dicothomy()
+void test_dichotomy()
 {
     int taille = 5;
     int valeur = 3;

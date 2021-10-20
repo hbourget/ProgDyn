@@ -7,7 +7,7 @@
 /**
  * @brief Tests unitaires pour la recherche par dicothomy.
  */
-void test_dicothomy();
+void test_dichotomy();
 
 /**
  * @brief Tests unitaires pour le problème du sac à dos.
