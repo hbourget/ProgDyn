@@ -7,11 +7,11 @@
 /**
  * @brief Tests unitaires pour la recherche par dicothomy.
  */
-test_dicothomy();
+void test_dicothomy();
 
 /**
  * @brief Tests unitaires pour le problème du sac à dos.
  */
-test_knapsack();
+void test_knapsack();
 
 #endif //PROGRAMMATIONDYNAMIQUE_TESTS_H
