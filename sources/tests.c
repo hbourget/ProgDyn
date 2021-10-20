@@ -1,7 +1,7 @@
 //
 // Created by h.bourget on 20/10/2021.
 //
-#include "../headers/dicothomy.h"
+#include "../headers/dichotomy.h"
 #include "../headers/knapsack.h"
 #include <malloc.h>
 #include <assert.h>
