@@ -4,7 +4,7 @@
 #include "../headers/dicothomy.h"
 #include "../headers/knapsack.h"
 #include <malloc.h>
-#include <stdio.h>
+#include <assert.h>
 
 void test_dicothomy()
 {
@@ -18,7 +18,7 @@ void test_dicothomy()
     }
 
     int resultat = find_by_dichotomy(tabDicothomy, taille, valeur);
-    printf("%d", resultat);
+    assert(resultat == 3);
 }
 
 void test_glouton()
@@ -38,5 +38,5 @@ void test_glouton()
 
     triElements(elements, taille);
     res = remplissageSac(elements, taille, poidsMax);
-    printf("\n%f", res);
+    assert(res == 7.0);
 }
