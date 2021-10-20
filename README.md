@@ -7,7 +7,7 @@
 3. Générer la documentation Doxygen
 
 ## Explications
-### Recherche par dichtomie
+### Recherche par dichotomie
 Les algorithmes de recherche entrent dans cette catégorie. Leur rôle est de déterminer si une donnée est présente et, le cas échéant, d’en indiquer sa position, pour effectuer des traitements annexes. La recherche d’une information dans un annuaire illustre cette idée. On cherche si telle personne est présente dans l’annuaire afin d’en déterminer l’adresse. 
 Dans notre projet, la recherche dichotomique permet de traiter efficacement des données représentées dans un tableau de façon ordonnée.
 ### Problème du sac à dos
@@ -25,7 +25,7 @@ Il est possible de générer la documentation technique de ce projet avec [Doxyg
 * **Windows**
   * Installation de Doxygen (Ne pas oublier d'ajouter Doxygen dans le PATH windows)
     * [Sourceforge](https://sourceforge.net/projects/doxygen/files/rel-1.9.2/)
-  * Génération de la documentation depuis la racine d'installation de DataStructure
+  * Génération de la documentation depuis la racine de ProgDyn
     * `mingw32-make documentation`
    
 
