@@ -1,5 +1,5 @@
 
-# DataStructure
+# ProgDyn
 
 *Le but de se projet et de se familiariser avec les différents types de structure de données.*
 
@@ -10,7 +10,7 @@
 3. Générer la documentation Doxygen
 
 ## Installation
-  * Cloner le projet ``git clone https://github.com/hbourget/Benchme.git``
+  * Cloner le projet ``git clone https://github.com/hbourget/ProgDyn.git``
   * Générer le fichier exécutable dans le répertoire
     * Windows : ``mingw32-make``
     * Linux : ``sudo make`` 
