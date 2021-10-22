@@ -6,5 +6,5 @@ int main()
     printf("Test dichotomy: OK");
     test_knapsack();
     printf("\nTest sac a dos: OK");
-    printf("\nFin des tests unitaires.");
+    printf("\nFin des tests unitaires.\n");
 }
