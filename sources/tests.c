@@ -1,5 +1,6 @@
 #include "../headers/dichotomy.h"
 #include "../headers/knapsack.h"
+#include "../headers/pgcb.h"
 #include <malloc.h>
 #include <assert.h>
 /**
@@ -41,4 +42,12 @@ void test_knapsack()
     triElements(elements, taille);
     res = remplissageSac(elements, taille, poidsMax);
     assert(res == 7.0);
+}
+
+void test_pgcb()
+{
+    int hauteur = 4;
+    int largeur = 5;
+
+    afficherMatrice(hauteur, largeur, creerMatrice(hauteur,largeur));
 }

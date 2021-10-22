@@ -5,4 +5,6 @@ void test_dichotomy();
 
 void test_knapsack();
 
+void test_pgcb();
+
 #endif //PROGRAMMATIONDYNAMIQUE_TESTS_H
