@@ -1,3 +1,4 @@
+
 # Programmation Dynamique
 
 **Sommaire** :
@@ -22,15 +23,16 @@ Le problème du sac à dos, noté également KP (en anglais, Knapsack problem) e
 - **Installation du projet**
   * Cloner le projet ``git clone https://github.com/hbourget/ProgDyn.git``
   * Se placer dans le répertoire de ProgDyn `cd <repertoire>`
-  * Dans le repertoire de ProgDyn, générer le Makefile `cmake <repertoire>` (Exemple `cmake /home/hbourget/cProjetcs/ProgDyn`)
-  * Générer le fichier exécutable dans le répertoire  ``make`` 
-  * Lancer le programme `./ProgDyn`
+     * Créer un dossier build `mkdir build`
+  * Se placer dedans `cd build`
+     * Générer le Makefile `cmake ..`
+     * Générer le fichier exécutable  ``make`` 
+     * Lancer le programme `./ProgDyn`
+ 
 ## Documentation Doxygen
 Il est possible de générer la documentation technique de ce projet avec [Doxygen](https://www.doxygen.nl/index.html) en suivant le protocole suivant :
 
-  * Installation de Doxygen 
-    * ``apt install doxygen``
-  * Génération de la documentation depuis la racine de ProgDyn
-    * ``make documentation``
+  * Installation de Doxygen ``apt install doxygen``
+  * Génération de la documentation depuis le dossier build  ``make documentation``
 
 La documentation est généré sous format HTML. Pour la lire, il suffit d'ouvrir le fichier ``index.html`` situer dans le dossier **doc** qui vient d'être créé par Doxygen.
