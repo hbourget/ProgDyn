@@ -2,7 +2,9 @@
 #include "../headers/knapsack.h"
 #include <malloc.h>
 #include <assert.h>
-
+/**
+ * @brief Tests unitaires pour la recherche par dicothomy.
+ */
 void test_dichotomy()
 {
     int taille = 5;
@@ -18,6 +20,9 @@ void test_dichotomy()
     assert(resultat == 3);
 }
 
+/**
+ * @brief Tests unitaires pour le problème du sac à dos.
+ */
 void test_knapsack()
 {
     int taille = 3;
