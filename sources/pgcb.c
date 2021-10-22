@@ -38,7 +38,7 @@ int *creerMatrice(int hauteur, int largeur)
  * @param largeur Largeur de la matrice
  * @param matrice Référence sur notre matrice créée plus tôt
  */
-void afficherMatrice(int hauteur, int largeur, int const *matrice)
+void afficherMatrice(int const *matrice, int hauteur, int largeur)
 {
     int pos = 0;
     for (int i = 0; i < hauteur ; i++)
@@ -57,9 +57,4 @@ void afficherMatrice(int hauteur, int largeur, int const *matrice)
         }
         printf("\n");
     }
-}
-
-Coordonee trouverPGCB(int const *matrice)
-{
-
 }

@@ -3,6 +3,7 @@
 #include "../headers/pgcb.h"
 #include <malloc.h>
 #include <assert.h>
+
 /**
  * @brief Tests unitaires pour la recherche par dicothomy.
  */
@@ -50,7 +51,6 @@ void test_pgcb()
     int largeur = 90;
 
     int *matrice = creerMatrice(hauteur, largeur);
-    //assert(matrice[hauteur*largeur] == 0 || matrice[hauteur*largeur] == 1);
 
-    afficherMatrice(hauteur, largeur, matrice);
+    afficherMatrice(matrice, hauteur, largeur);
 }
