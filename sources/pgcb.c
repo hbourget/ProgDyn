@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "../headers/pgcb.h"
 
 /**
  * @brief Création de la matrice
@@ -13,11 +14,18 @@ int *creerMatrice(int hauteur, int largeur)
     int taille = hauteur*largeur;
     int *matrice = malloc(sizeof(int)*taille);
 
-    srand(255);
+    srand(50);
 
+    //Affection à 0 pour toutes les cases de la matrice
     for (int i = 0; i < taille; i++)
     {
-        matrice[i] = rand() % 2;
+        matrice[i] = 0;
+    }
+
+    //Affection de 0 ou 1 toutes les 5 cases de la matrice
+    for (int j = 0; j < taille; j+=5)
+    {
+        matrice[j] = rand() % 2;
     }
 
     return matrice;
@@ -30,14 +38,14 @@ int *creerMatrice(int hauteur, int largeur)
  * @param largeur Largeur de la matrice
  * @param matrice Référence sur notre matrice créée plus tôt
  */
-void afficherMatrice(int hauteur, int largeur, int *matrice)
+void afficherMatrice(int hauteur, int largeur, int const *matrice)
 {
-    int pas = 0;
+    int pos = 0;
     for (int i = 0; i < hauteur ; i++)
     {
         for (int j = 0; j < largeur; j++)
         {
-            if(matrice[pas] == 0)
+            if(matrice[pos] == 0)
             {
                 printf(" ");
             }
@@ -45,8 +53,13 @@ void afficherMatrice(int hauteur, int largeur, int *matrice)
             {
                 printf("*");
             }
-            pas++;
+            pos++;
         }
         printf("\n");
     }
+}
+
+Coordonee trouverPGCB(int const *matrice)
+{
+
 }

@@ -8,17 +8,17 @@
  */
 void test_dichotomy()
 {
-    int taille = 5;
-    int valeur = 3;
+    int taille = 50;
+    int valeur = 17;
 
-    int *tabDicothomy = (int*) malloc(sizeof(int)*taille);
+    int *tabDicothomy = malloc(sizeof(int)*taille);
     for (int i = 0; i < taille; i++)
     {
         tabDicothomy[i] = i;
     }
 
     int resultat = find_by_dichotomy(tabDicothomy, taille, valeur);
-    assert(resultat == 3);
+    assert(resultat == 17);
 }
 
 /**
@@ -46,7 +46,11 @@ void test_knapsack()
 
 void test_pgcb()
 {
-    int hauteur = 10;
-    int largeur = 10;
-    afficherMatrice(hauteur, largeur, creerMatrice(hauteur,largeur));
+    int hauteur = 50;
+    int largeur = 90;
+
+    int *matrice = creerMatrice(hauteur, largeur);
+    //assert(matrice[hauteur*largeur] == 0 || matrice[hauteur*largeur] == 1);
+
+    afficherMatrice(hauteur, largeur, matrice);
 }
