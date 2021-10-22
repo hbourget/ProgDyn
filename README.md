@@ -12,6 +12,14 @@ Les algorithmes de recherche entrent dans cette catégorie. Leur rôle est de d�
 Dans notre projet, la recherche dichotomique permet de traiter efficacement des données représentées dans un tableau de façon ordonnée.
 ### Problème du sac à dos
 Le problème du sac à dos, noté également KP (en anglais, Knapsack problem) est un problème d'optimisation combinatoire. Il modélise une situation analogue au remplissage d'un sac à dos, ne pouvant supporter plus d'un certain poids, avec tout ou partie d'un ensemble donné d'objets ayant chacun un poids et une valeur. Les objets mis dans le sac à dos doivent maximiser la valeur totale, sans dépasser le poids maximum.
+### Problème du plus grand carré libre
+On considère le problème suivant: étant donné une image monochrome n x n (ou une matrice),
+il faut en déterminer le plus grand carré blanc, qui ne contient aucun point noir.
+
+![pgcb](https://user-images.githubusercontent.com/57684366/138501041-0fb8cde6-9a7e-4e96-a315-3fa80350699a.png)
+
+
+
 
 ## Installation
   - **Installation des dépendances pour le Makefile** 
