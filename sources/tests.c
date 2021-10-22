@@ -1,6 +1,3 @@
-//
-// Created by h.bourget on 20/10/2021.
-//
 #include "../headers/dichotomy.h"
 #include "../headers/knapsack.h"
 #include <malloc.h>

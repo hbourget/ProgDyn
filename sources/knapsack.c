@@ -1,6 +1,3 @@
-//
-// Created by h.bourget on 20/10/2021.
-//
 #include "../headers/knapsack.h"
 
 void triElements(Element elements[], int taille)

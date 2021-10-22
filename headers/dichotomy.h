@@ -1,7 +1,3 @@
-//
-// Created by h.bourget on 20/10/2021.
-//
-
 #ifndef PROGRAMMATIONDYNAMIQUE_DICOTHOMY_H
 #define PROGRAMMATIONDYNAMIQUE_DICOTHOMY_H
 
