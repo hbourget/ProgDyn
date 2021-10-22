@@ -16,10 +16,7 @@ Le problème du sac à dos, noté également KP (en anglais, Knapsack problem) e
 On considère le problème suivant: étant donné une image monochrome n x n (ou une matrice),
 il faut en déterminer le plus grand carré blanc, qui ne contient aucun point noir.
 
-![pgcb](https://user-images.githubusercontent.com/57684366/138501041-0fb8cde6-9a7e-4e96-a315-3fa80350699a.png)
-
-
-
+![pgcl](https://user-images.githubusercontent.com/57684366/138505086-444e76e5-793f-48db-9518-621174ee77d4.png)
 
 ## Installation
   - **Installation des dépendances pour le Makefile** 
