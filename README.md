@@ -1,4 +1,3 @@
-
 # Programmation Dynamique
 
 **Sommaire** :
@@ -21,16 +20,36 @@ Le problème du sac à dos, noté également KP (en anglais, Knapsack problem) e
 	  - Si cela ne fonctionne pas `apt install cmake` ou téléchargement directement sur la platforme https://cmake.org/download/
 	  
 - **Installation du projet**
-  * Cloner le projet ``git clone https://github.com/hbourget/ProgDyn.git``
-  * Se placer dans le dossier build du répertoire de ProgDyn `cd <racineProgDyn/build>`
-     * Générer le Makefile `cmake ./`
-     * Générer le fichier exécutable  ``make`` 
-     * Lancer le programme `./ProgDyn`
+
+	- *Linux* :
+	  * Cloner le projet ``git clone https://github.com/hbourget/ProgDyn.git``
+	  * Se placer dans le dossier build du répertoire de ProgDyn `cd <racineProgDyn/build>`
+	     * Générer le Makefile `cmake ../`
+	     * Générer le fichier exécutable  ``make`` 
+	     * Lancer le programme `./ProgDyn`
+
+	- *Windows (MinGW)* :
+		
+		- Cloner le projet ``git clone https://github.com/hbourget/ProgDyn.git``
+		 - Se placer dans le dossier build du répertoire de ProgDyn `cd <racineProgDyn/build>`
+		     * Générer le Makefile `cmake -G "MinGW Makefiles" ../`
+		     * Générer le fichier exécutable  ``mingw32-make`` 
+		     * Lancer le programme `ProgDyn.exe`
+
  
+
 ## Documentation Doxygen
 Il est possible de générer la documentation technique de ce projet avec [Doxygen](https://www.doxygen.nl/index.html) en suivant le protocole suivant :
 
-  * Installation de Doxygen ``apt install doxygen``
-  * Génération de la documentation depuis le dossier build  ``make documentation``
+* **Windows**
+  * Installation de Doxygen (Ne pas oublier d'ajouter Doxygen dans le PATH windows)
+    * [Sourceforge](https://sourceforge.net/projects/doxygen/files/rel-1.9.2/)
+  * Génération de la documentation depuis le dossier build
+    * `mingw32-make documentation`
 
-La documentation est généré sous format HTML. Pour la lire, il suffit d'ouvrir le fichier ``index.html`` situer dans le dossier **doc** qui vient d'être créé par Doxygen.
+
+* **Linux**
+  * Installation de Doxygen  ``apt install doxygen``
+  * Génération de la documentation depuis le dossier build ``make documentation``
+
+La documentation est généré sous format HTML. Pour la lire, il suffit d'ouvrir le fichier ``index.html`` situer dans le dossier **documentation** qui vient d'être créé à la racine du projet par Doxygen.
