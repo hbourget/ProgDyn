@@ -46,8 +46,7 @@ void test_knapsack()
 
 void test_pgcb()
 {
-    int hauteur = 4;
-    int largeur = 5;
-
+    int hauteur = 10;
+    int largeur = 10;
     afficherMatrice(hauteur, largeur, creerMatrice(hauteur,largeur));
 }

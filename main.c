@@ -6,6 +6,7 @@ int main()
     printf("Test dichotomy: OK");
     test_knapsack();
     printf("\nTest sac a dos: OK\n");
+    printf("Affichage de la matrice :\n\n");
     test_pgcb();
     printf("\nFin des tests unitaires.\n");
 }
